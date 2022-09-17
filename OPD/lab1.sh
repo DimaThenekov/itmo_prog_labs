@@ -1,4 +1,6 @@
-# Created by dim0n4eg
+#  Лабораторная работа №1
+#  Вариант 1020
+#  Группа P3110 Ценеков Дмитрий
 
 # Delete last job
 # and create a new folder
@@ -7,7 +9,7 @@ rm -r lab0 2>/dev/null
 mkdir lab0
 cd lab0 
 
-# 1
+# !!! 1 !!!
 touch deerling3
 
 mkdir hitmonchan6
@@ -62,7 +64,7 @@ def=6" > palpitoad6
 
 cd sneasel0
 
-echo "Живет Forest Rainforest" > simipour
+echo "Живет Forest Rainforest" > simipur
 
 echo "Возможности
 Overland=2 Scy=7 Jamp=1 Power=4 Intelligence=6 Magnetic=0
@@ -83,7 +85,7 @@ echo "Живет Mountain Urban" > machoke
 
 cd ..
 
-# 2
+# !!! 2 !!!
 chmod 664 deerling3
 chmod 373 hitmonchan6
 chmod 660 hitmonchan6/vanillite
@@ -105,8 +107,7 @@ chmod 600 togepi1/exeggcute
 chmod 444 togepi1/woobat
 chmod 400 togepi1/machoke
 
-# chmod -R 700 ./
-# 3
+# !!! 3 !!!
 cat deerling3 > togepi1/woobatdeerling
 cp loudred7 hitmonchan6/infernape
 ln -s sneasel0 Copy_6
@@ -115,24 +116,24 @@ cp -a sneasel0 hitmonchan6/infernape
 cat togepi1/machoke hitmonchan6/toxicroak > deerling3_63
 ln -s loudred7 hitmonchan6/bagonloudred
 
-# 4
-echo "4.1:"
+# !!! 4 !!!
+echo "== 4.1 =="
 ls -R -l ./ | grep 't$' | sort -nk5 2>&1
-echo "4.2:"
+echo "== 4.2 =="
 ls hitmonchan6 | sort
-echo "4.3:"
+echo "== 4.3 =="
 ls -R ./ | grep '^m.*[^:]$' | sort 2>&1
-echo "4.4:"
+echo "== 4.4 =="
 ls -R sneasel0 | grep '^.*[^:]$' | sort -r 2>/dev/null
-echo "4.5:"
+echo "== 4.5 =="
 ls -R -ltu ./ | grep 't$'
-echo "4.6:"
+echo "== 4.6 =="
 cat -n hitmonchan6/toxicroak hitmonchan6/bagon sneasel0/simipour sneasel0/metang | sort -k2 -r 2>/dev/null
 
-# 5
+# !!! 5 !!!
 rm deerling3
 rm sneasel0/feraligatr
 rm Copy*
 rm sneasel0/feraligatrdeerling
 rm -r hitmonchan6
-rmdir hitmonchan6/smoochum # make exception because hitmonchan6 was removed
+rmdir hitmonchan6/smoochum
